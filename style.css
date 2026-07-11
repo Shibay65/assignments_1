@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e3dbdb;
+    align-items: center;
+}
+
+.navbar div ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.manu {
+    display: flex;
+
+    gap: 21px;
+}
+
+.btn {
+    background-color: blue;
+    cursor: pointer;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 400;
+    border: none;
+}
+
+/* container */
+.container {
+    background-image:
+        linear-gradient(rgba(54, 52, 52, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 650px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.container-context {
+    margin-top: 60px;
+}
+
+.headline-container {
+    margin-bottom: 5px;
+}
+
+.btn1 {
+    color: aliceblue;
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+/* speaker */
+.speakers-section {
+    max-width: 1321px;
+    margin: 0 auto;
+}
+
+section h1 {
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px 0 -20px 0;
+
+}
+
+.grid1,
+.grid2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+
+}
+
+.man {
+    margin-top: 50px;
+    border: 0px 5px 5px 0px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 4px 4px 5px rgb(236, 232, 232);
+    border-radius: 1%;
+    padding: 15px;
+
+}
+
+.skill {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0952f0bc;
+}
+
+/* price section */
+.selling {
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.price-heading {
+    text-align: center;
+    margin: 100px;
+
+
+
+}
+
+.headline-price {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.short-content {
+    font-family: "Inter", sans-serif;
+    color: #575757
+}
+
+.price-section {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.price {
+    background-color: #FFFFFF;
+    border: .05px solid rgba(195, 184, 184, 0.542);
+    border-radius: 5px;
+    padding: 35px;
+    box-shadow: 5px 10px #E5E7EB;
+    margin: auto;
+
+
+}
+
+.spot {
+    font-size: 25px;
+    font-weight: 58;
+    font-family: "Inter", sans-serif;
+}
+
+.under {
+    margin-top: 20px;
+
+}
+
+.btn2 {
+    border: 2px solid #2563EB;
+    cursor: pointer;
+    color: #2563EB;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading2 {
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: bold;
+
+
+}
+
+.heading1 {
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.price2 {
+    background-color: #0D1B2A;
+
+}
+
+.btn3 {
+    background-color: #2563EB;
+}
+
+/* footer */
+.about {
+    margin-top: 100px;
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0D1B2A;
+}
+
+.policy {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about div {
+    display: flex;
+    align-items: center;
+}
+
+/* Registration Section */
+
+.registration {
+    max-width: 1320px;
+    margin: 100px auto;
+}
+
+.register-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .12);
+}
+
+.register-title {
+    text-align: center;
+    font-size: 45px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.register-subtitle {
+    text-align: center;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.register-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #0D1B2A;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: .3s;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 5px rgba(37, 99, 235, .3);
+}
+
+.input-group textarea {
+    resize: none;
+    height: 120px;
+}
+
+.full {
+    grid-column: 1/3;
+}
+
+.checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #2563EB;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.register-btn:hover {
+    background: #1d4ed8;
+}
+
+@media(max-width:768px) {
+
+    .register-form {
+        grid-template-columns: 1fr;
+    }
+
+    .full {
+        grid-column: 1;
+    }
+
+    .register-container {
+        padding: 25px;
+    }
+
+    .register-title {
+        font-size: 32px;
+    }
+
+}

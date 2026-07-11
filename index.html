@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div><img src="../image/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="manu" style="font-family: Inter, sans-serif;">
+                    <li><a href=""></a>Speakers</li>
+                    <li><a href=""></a>Schedule</li>
+                    <li><a href=""></a>Tracks</li>
+                    <li><a href=""></a>Venue</li>
+                    <li><a href=""></a>Blog</li>
+                </ul>
+            </div>
+            <div><button class="btn">Register Now</button></div>
+        </nav>
+        <!-- speaker section start from here -->
+        <section class="container">
+            <div class="container-context">
+                <h1 class="headline-container ">Code. Connect. Create</h1>
+                <p class="context-container ">Join 4,000+ engineers, founders, and builders at the premier
+                    developer <br>
+                    conference of 2026. Three days
+                    of cutting-edge
+                    talks, hands-on workshops,<br> and meaningful connections.
+                </p>
+
+            </div>
+            <div style="margin-bottom: 80px;"><button class="btn1">Register Now</button></div>
+        </section>
+    </header>
+    <section class="speakers-section">
+        <h1>Meet the Speakers</h1>
+        <div class="speakers">
+            <div class="grid1">
+                <div class="man">
+                    <img src="../image/andrej.png" alt="">
+                    <p class="skill">AL/ML</p>
+                    <h4>Andrej Karpathy</h4>
+                    <p>Pretraining team,Anthropic</p>
+                </div>
+                <div class="man">
+                    <img src="../image/demis.png" alt="">
+                    <p class="skill">Cloud & DevOps</p>
+                    <h4>Demis Hassabis</h4>
+                    <p>Co-Founder and CEO, Google DeepMind</p>
+                </div>
+            </div>
+            <div class="grid2">
+                <div class="man">
+                    <img src="../image/gary.png" alt="">
+                    <p class="skill">Frontend</p>
+                    <h4>Gary Marcus</h4>
+                    <p>Staff Engineer, Vercel</p>
+                </div>
+                <div class="man">
+                    <img src="../image/mustafa.png" alt="">
+                    <p class="skill">Security</p>
+                    <h4>Mustafa Suleyman</h4>
+                    <p>CEO of Microsoft AI</p>
+                </div>
+            </div>
+        </div>
+        <!-- speaker section ended  -->
+
+    </section>
+    <section class="selling">
+        <div class="price-heading">
+            <h2 class="headline-price">Secure Your Spot</h2>
+            <p class="short-content">Early-bird pricing ends August 15,2026.</p>
+        </div>
+        <div class="price-section">
+            <div class="price">
+                <p class="spot">Standard</p>
+                <h2 class="heading2">$399</h2>
+                <p class="spot">per person</p>
+
+                <ul class="spot under ">
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffee breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 dayss)</li>
+                    <button class="under btn2 btn4">Get Standard</button>
+                </ul>
+            </div>
+            <div class="price price2">
+                <p class="spot " style="color: azure;">Pro</p>
+                <h2 class="heading1">$749</h2>
+                <p class="spot" style="color: azure;">per person</p>
+                <ul class="spot under" style="color: azure;">
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on1 mentorship (30 min)</li>
+                    <button class="under btn2 btn3 btn4 " style="color: aliceblue;">Get Pro</button>
+                </ul>
+            </div>
+            <div class="price">
+                <p class="spot">Team</p>
+                <h2 class="heading2">$5,999</h2>
+                <p class="spot">up to 10 people</p>
+                <ul class="spot under">
+                    <li>Everything in Pro (10 seats)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                    <button class="under btn2 btn4">Contact Us</button>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- registration form using chat gpt -->
+    <section class="registration">
+
+        <div class="register-container">
+
+            <h2 class="register-title">Register for DevConf 2026</h2>
+            <p class="register-subtitle">
+                Complete the registration form to reserve your seat.
+            </p>
+
+            <form class="register-form">
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="01XXXXXXXXX" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-group">
+                    <label>Profession</label>
+                    <input type="text" placeholder="Student / Developer">
+                </div>
+
+                <div class="input-group">
+                    <label>Country</label>
+                    <input type="text" placeholder="Bangladesh">
+                </div>
+
+                <div class="input-group full">
+                    <label>Address</label>
+                    <textarea placeholder="Enter your address"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Select Ticket</label>
+
+                    <select>
+                        <option>Standard - $399</option>
+                        <option>Pro - $749</option>
+                        <option>Team - $5999</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Profile Photo</label>
+                    <input type="file">
+                </div>
+
+                <div class="input-group full checkbox">
+                    <input type="checkbox" required>
+                    <span>I agree to the Terms & Conditions.</span>
+                </div>
+
+                <div class="input-group full">
+                    <button class="register-btn" type="submit">
+                        Complete Registration
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+    <footer>
+        <section class="about">
+            <div>
+                <p style="color: aliceblue;">© 2026 DevConf. All rights reserved.</p>
+            </div>
+            <div>
+                <ul class="policy">
+                    <li style="color: aliceblue;">Privacy Policy</li>
+                    <li style="color: aliceblue;">Terms of Service</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
