@@ -42,7 +42,7 @@
 .container {
     background-image:
         linear-gradient(rgba(54, 52, 52, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../image/banner.jpg");
+        url("./image/banner.jpg");
     background-size: cover;
     background-position: center;
     color: white;
