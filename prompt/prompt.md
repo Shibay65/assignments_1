@@ -1,6 +1,6 @@
 Act as a Senior Frontend Developer.
 
-I already have a conference/event website built with HTML5 and CSS3. Create ONLY a Registration Form section that matches the existing website design.
+I already have a event website built with HTML and CSS. Create ONLY a Registration Form section that matches the existing website design.
 
 Requirements:
 - Provide HTML and CSS separately.
@@ -30,6 +30,6 @@ The registration form should include:
 - Register Button
 - Reset Button
 
-Use only HTML5 and CSS3.
+Use only HTML and CSS.
 Do not use Bootstrap, Tailwind, or JavaScript.
 The output should be production-quality and visually consistent with the existing website.
