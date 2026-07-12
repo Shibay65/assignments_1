@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    ;
+
+
 }
 
 
 .navbar {
+
     display: flex;
     justify-content: space-between;
     max-width: 1320px;
+    min-height: 80px;
     margin: 0 auto;
     text-align: center;
-    background-color: #e3dbdb;
+    background-color: white;
     align-items: center;
 }
 
@@ -23,14 +26,13 @@
 
 .manu {
     display: flex;
-
     gap: 21px;
 }
 
 .btn {
     background-color: blue;
     cursor: pointer;
-    height: 30px;
+    height: 40px;
     width: 120px;
     border-radius: 5px;
     color: aliceblue;
@@ -40,9 +42,6 @@
 
 /* container */
 .container {
-    /* background-image:
-        linear-gradient(rgba(54, 52, 52, 0.6), rgba(0, 0, 0, 0.6)),
-        url("./image/banner.jpg"); */
     background-image: url(./image/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -60,6 +59,12 @@
 
 .headline-container {
     margin-bottom: 5px;
+}
+
+.font-size {
+    font-size: 18px;
+
+
 }
 
 .btn1 {
